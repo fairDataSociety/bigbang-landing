@@ -29,7 +29,7 @@ export default function Main(props: Props) {
 
   return (
     <div className={classes.Main}>
-      <Navbar />
+      {/*<Navbar />*/}
 
       {/*<AlertBanner*/}
       {/*  bannerContent="*/}

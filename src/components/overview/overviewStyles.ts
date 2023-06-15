@@ -22,6 +22,7 @@ const useStyles = makeStyles(() =>
       textAlign: "center",
       maxWidth: "120rem",
       font: "600 5rem var(--font1)",
+      color: (style: Props & Theme) => style.purple,
       marginBottom: "7rem",
 
       "& span": {

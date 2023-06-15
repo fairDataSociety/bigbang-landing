@@ -79,7 +79,6 @@ const useStyles = makeStyles(() =>
     },
     header: {
       font: "600 6rem var(--font1);",
-      color: (style: Props & Theme) => style.purple,
       textAlign: "center",
       marginBottom: "4rem",
       "@media (min-width: 960px)": {

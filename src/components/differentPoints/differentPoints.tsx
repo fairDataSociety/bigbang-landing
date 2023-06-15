@@ -11,7 +11,7 @@ function DifferentPoints(props: Props) {
 
   return (
     <div className={classes.WhyFD}>
-      <div className={classes.container}>
+      <div className={classes.container}  style={{marginTop: '2rem'}}>
         <div>
           <div className={classes.content}>
             <h1 className={classes.header}>What makes Fairdrive different</h1>
@@ -41,11 +41,11 @@ function DifferentPoints(props: Props) {
                 Invite your friends to join Fairdrive and receive free BZZ tokens as a token of gratitude for helping us grow our community.
               </div>
 
-              <div className={classes.p1} style={{marginTop: '6rem'}}>
+              <div className={classes.p1} style={{marginTop: '3rem'}}>
                 Be among the pioneers in taking complete control over your data. By signing up for our waitlist, you not only gain the privilege to claim free storage but also unlock the potential for greater rewards through our referral system. Don't miss out on this opportunity to shape the future of data ownership. Sign up today and seize control of your digital destiny!
               </div>
 
-              <div className={classes.p1} style={{marginTop: '6rem', display: 'flex',
+              <div className={classes.p1} style={{marginTop: '2rem', display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center'}}>
                 <div className={classes.newsletterBar}>

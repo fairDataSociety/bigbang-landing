@@ -1,9 +1,7 @@
 import React from "react";
 import { useTheme } from "../../store/themeContext/themeContext";
 import useStyles from "./overviewStyles";
-import FDScreenshot from "../../media/images/fairdrive-overview.png";
-
-import MobileOverlay from "../mobileOverlay/mobileOverlay";
+import { ReactComponent as FairDriveLogotypeDarkSVG } from "../../media/images/logotype-dark.svg";
 
 export interface Props {
   // isAlertShow: boolean;
@@ -17,6 +15,9 @@ function Overview(props: Props) {
   return (
     <div className={classes.Overview}>
       <div className={classes.demoSection} style={{marginBottom: '0'}}>
+        <p style={{marginBottom: '4rem'}}>
+          <FairDriveLogotypeDarkSVG width={250}/>
+        </p>
         <p className={classes.headingBig}>
           Your Digital Safe Space
         </p>

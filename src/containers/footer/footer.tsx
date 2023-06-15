@@ -17,30 +17,9 @@ function Footer(props: Props) {
   return (
     <footer className={classes.footer}>
       <div className={`${classes.column} ${classes.left}`}>
-        <p>Made in collaboration with these ecosystem partners</p>
         <div className={classes.links}>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="src/containers/footer/footer"
-          >
             <SwarmLogotypeBlackSVG className={classes.linkIcon} />
-          </a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="src/containers/footer/footer"
-          >
             <FDSBlackSVG className={classes.linkIconFSB} />
-          </a>
-
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="src/containers/footer/footer"
-          >
-            <LinumLabsBlackSVG className={classes.linkIcon} />
-          </a>
         </div>
         <a
           className={classes.link}
@@ -48,35 +27,6 @@ function Footer(props: Props) {
         >
           Terms & Conditions
         </a>
-      </div>
-      <div className={`${classes.column} ${classes.right}`}>
-        <p>Join the conversation:</p>
-        <div className={classes.linksRight}>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            className={classes.linkItem}
-            href="https://discord.gg/RpX5eU4Cpr"
-          >
-            <Discord className={classes.socialIcon} />
-          </a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            className={classes.linkItem}
-            href="https://twitter.com/fairdatasociety"
-          >
-            <Twitter className={classes.socialIcon} />
-          </a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            className={classes.linkItem}
-            href="src/containers/footer/footer"
-          >
-            <Medium className={classes.socialIcon} />
-          </a>
-        </div>
       </div>
     </footer>
   );
