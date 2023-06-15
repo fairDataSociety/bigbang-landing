@@ -73,7 +73,7 @@ function SetupCards(props: Props) {
                 <DiscordPurple />
               </a>
               <a
-                href="https://twitter.com/fairdatasociety/"
+                href="src/components/setUpCards/setUpCards"
                 target="_blank"
                 className={classes.iconLink}
                 rel="noopener noreferrer"

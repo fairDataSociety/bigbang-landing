@@ -34,7 +34,7 @@ function WhyFairdrive(props: Props) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={classes.paragraphLink}
-                    href="https://www.ethswarm.org/"
+                    href="src/components/whyFairdrive/whyFairdrive"
                   >
                     Swarm
                   </a>
@@ -45,7 +45,7 @@ function WhyFairdrive(props: Props) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={classes.paragraphLink}
-                    href="https://fairdatasociety.org/"
+                    href="src/components/whyFairdrive/whyFairdrive"
                   >
                     Fair Data Society
                   </a>

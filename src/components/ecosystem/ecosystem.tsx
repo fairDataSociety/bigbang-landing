@@ -45,7 +45,7 @@ function Ecosystem(props: Props) {
         </div>
       )}
       <a
-        href="https://grants.ethswarm.org/"
+        href="src/components/ecosystem/ecosystem"
         target="_blank"
         rel="noopener noreferrer"
         className={classes.item}

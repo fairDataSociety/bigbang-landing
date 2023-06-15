@@ -22,14 +22,14 @@ function Footer(props: Props) {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.ethswarm.org/"
+            href="src/containers/footer/footer"
           >
             <SwarmLogotypeBlackSVG className={classes.linkIcon} />
           </a>
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://fairdatasociety.org/"
+            href="src/containers/footer/footer"
           >
             <FDSBlackSVG className={classes.linkIconFSB} />
           </a>
@@ -37,7 +37,7 @@ function Footer(props: Props) {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://linumlabs.com/"
+            href="src/containers/footer/footer"
           >
             <LinumLabsBlackSVG className={classes.linkIcon} />
           </a>
@@ -72,7 +72,7 @@ function Footer(props: Props) {
             rel="noopener noreferrer"
             target="_blank"
             className={classes.linkItem}
-            href="https://fairdatasociety.bzz.link/"
+            href="src/containers/footer/footer"
           >
             <Medium className={classes.socialIcon} />
           </a>

@@ -1,5 +1,5 @@
 app/node_modules/
-app/src/interfaces/
+src/interfaces/
 app/dist/
 app/build/
 app/yarn.lock

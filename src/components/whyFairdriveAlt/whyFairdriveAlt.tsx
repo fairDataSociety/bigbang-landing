@@ -30,7 +30,7 @@ function WhyFairdrive(props: Props) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={classes.paragraphLink}
-                    href="https://www.mydata.org/"
+                    href="src/components/whyFairdriveAlt/whyFairdriveAlt"
                   >
                     MyData Global
                   </a>{" "}
@@ -50,7 +50,7 @@ function WhyFairdrive(props: Props) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={classes.paragraphLink}
-                    href="https://www.mydata.org/participate/awards/"
+                    href="src/components/whyFairdriveAlt/whyFairdriveAlt"
                   >
                     MyData Awarded Operators
                   </a>{" "}
