@@ -1,0 +1,51 @@
+{
+  "name": "landing",
+  "version": "0.0.3",
+  "description": "Create-TypeScript-App customized for blockchain development",
+  "main": "index.ts",
+  "author": "Linum Labs",
+  "license": "MIT",
+  "basename": "/",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.17",
+    "@mui/styles": "^5.10.16",
+    "@types/node": "^18.11.9",
+    "@types/react": "^17.0.1",
+    "@types/react-dom": "^18.0.9",
+    "cross-env": "7.0.3",
+    "fortmatic": "^2.4.0",
+    "react": "^17.0.1",
+    "react-click-away-listener": "^2.2.2",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^17.0.1",
+    "react-router": "^6.4.3",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^5.0.1",
+    "react-transition-group": "^4.4.5",
+    "typescript": "~3.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build --openssl-legacy-provider",
+    "test:app": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "/",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
