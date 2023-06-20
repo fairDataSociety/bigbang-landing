@@ -45,19 +45,24 @@ function DifferentPoints(props: Props) {
                 Be among the pioneers in taking complete control over your data. By signing up for our waitlist, you not only gain the privilege to claim free storage but also unlock the potential for greater rewards through our referral system. Don't miss out on this opportunity to shape the future of data ownership. Sign up today and seize control of your digital destiny!
               </div>
 
-              <div className={classes.p1} style={{marginTop: '2rem', display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center'}}>
-                <div className={classes.newsletterBar}>
-                  <input
-                    className={classes.newsletterBarInput}
-                    type="text"
-                    placeholder="Enter your email"
-                  />
-                  <button type="button" className={classes.newsletterBarSubmit}>
-                    GET EARLY ACCESS
-                  </button>
-                </div>
+              <div className={classes.p1} style={{
+                marginTop: '2rem',
+                marginRight: '0',
+                // display: 'flex',
+                // flexDirection: 'column',
+                // alignItems: 'center'
+              }}>
+                {/*<div className={classes.newsletterBar}>*/}
+                {/*  <input*/}
+                {/*    className={classes.newsletterBarInput}*/}
+                {/*    type="text"*/}
+                {/*    placeholder="Enter your email"*/}
+                {/*  />*/}
+                {/*  <button type="button" className={classes.newsletterBarSubmit}>*/}
+                {/*    GET EARLY ACCESS*/}
+                {/*  </button>*/}
+                {/*</div>*/}
+                <div className="klaviyo-form-UrTtyL"></div>
 
                 <p style={{
                   color: '#888',
