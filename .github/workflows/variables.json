@@ -1,0 +1,42 @@
+{
+  "Variables": [
+    {
+      "Name": "DEPLOYMENT",
+      "Value": ".",
+      "Scope": {
+        "Environment": [
+          "master",
+	  "main"
+        ]
+      }
+    },
+    {
+      "Name": "DEPLOYMENT",
+      "Value": ".dev.",
+      "Scope": {
+        "Environment": [
+          "development"
+        ]
+      }
+    },
+    {
+      "Name": "DEPLOYMENT",
+      "Value": ".staging.",
+      "Scope": {
+        "Environment": [
+          "staging"
+        ]
+      }
+    },
+    {
+      "Name": "PURGE_URL",
+      "Value": "https://fairdrive#{DEPLOYMENT}fairdatasociety.org",
+      "Scope": {}
+    },
+    {
+      "Name": "SWARM_URL",
+      "Value": "https://gateway#{DEPLOYMENT}fairdatasociety.org/proxy/",
+      "Scope": {}
+    }
+  ]
+}
