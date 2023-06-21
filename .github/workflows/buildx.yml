@@ -3,9 +3,8 @@ name: buildx
 on:
   push:
     branches:
+      - 'master'
       - 'main'
-      - 'development'
-      - 'staging'
   
 jobs:
   docker:
