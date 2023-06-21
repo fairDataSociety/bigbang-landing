@@ -3,9 +3,9 @@ FROM node:lts as build
 
 WORKDIR /base
 #COPY app/yarn.lock .
-COPY app/*.json ./
+COPY *.json ./
 RUN npm install --legacy-peer-deps 
-COPY app/ .
+COPY . .
 RUN npm run build
 
 #webserver
