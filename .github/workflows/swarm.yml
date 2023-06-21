@@ -10,9 +10,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: app
     strategy:
       matrix:
         node-version: [18.x]
@@ -63,7 +60,7 @@ jobs:
         uses: ethersphere/swarm-actions/upload-dir@latest
         with:
           bee-url: ${{ env.SWARM_URL }}
-          dir: ./app/build
+          dir: ./build
           index-document: index.html
           timeout: 200000 
       - name: update feed
