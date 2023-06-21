@@ -53,18 +53,18 @@ const useStyles = makeStyles(() =>
       "@media (min-width: 960px)": {
         font: "600 3rem var(--font1)",
         textAlign: "center",
-
         marginBottom: "2.4rem",
       },
     },
     paragraph: {
       textAlign: "left",
-      maxWidth: "76rem",
+      padding: "2rem",
       font: "400 2.8rem var(--font1)",
       marginBottom: "7rem",
       color: (style: Props & Theme) => style.textDark1,
       "@media (min-width: 960px)": {
-        textAlign: "center",
+        padding: "0.5rem",
+        textAlign: "left",
         maxWidth: "90rem",
         font: "400 2rem var(--font1)",
       },

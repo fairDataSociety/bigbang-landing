@@ -44,7 +44,6 @@ const useStyles = makeStyles(() =>
       paddingRight: "0%",
       padding: "2rem",
       "@media (min-width: 960px)": {
-        paddingRight: "10%",
         padding: "0",
       },
     },
