@@ -22,7 +22,7 @@ function Overview(props: Props) {
           Your Digital Safe Space
         </p>
         <p className={classes.paragraph} style={{marginBottom: '0'}}>
-          Welcome to Fairdrive, the web3 drive that puts you in charge of your data. Say goodbye to centralized clouds and hello to total control, advanced security, and decentralized storage.
+          Welcome to Fairdrive, the Web3 drive that puts you in charge of your data. Say goodbye to centralized clouds and hello to total control, advanced security, and decentralized storage.
         </p>
       </div>
     </div>

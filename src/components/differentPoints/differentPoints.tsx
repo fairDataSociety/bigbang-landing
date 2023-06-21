@@ -23,7 +23,7 @@ function DifferentPoints(props: Props) {
 
               <div className={classes.p1}>
                 <strong>Security and Privacy You Can Trust:</strong>{" "}
-                With encrypted data by default, Fairdrive offers top-notch security and peace of mind.
+                With encrypted data by default, Fairdrive allows you to control data with your keys.
               </div>
 
               <div className={classes.p1}>
@@ -38,7 +38,7 @@ function DifferentPoints(props: Props) {
 
               <div className={classes.p1}>
                 <strong>Referral System:</strong>{" "}
-                Invite your friends to join Fairdrive and receive free BZZ tokens as a token of gratitude for helping us grow our community.
+                Invite your friends to join Fairdrive and receive free storage as a token of our gratitude for helping us grow our community.
               </div>
 
               <div className={classes.p1} style={{marginTop: '3rem'}}>
@@ -70,7 +70,7 @@ function DifferentPoints(props: Props) {
                   fontSize: '1.8rem',
                   textAlign: 'center',
                 }}>
-                  The first 1000 signups will be part of an airdrop
+                  The first 1000 signups will be among the recipients of free storage
                 </p>
               </div>
 
