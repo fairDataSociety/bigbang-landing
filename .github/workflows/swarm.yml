@@ -46,9 +46,9 @@ jobs:
       - name: install
         run: npm install --legacy-peer-deps
 
-      - name: copy NEXT vars to .env
-        run: |
-          env |grep 'REACT_' > .env
+          #- name: copy NEXT vars to .env
+          #  run: |
+          #    env |grep 'REACT_' > .env
 
       - name: build
         run: npm run build
