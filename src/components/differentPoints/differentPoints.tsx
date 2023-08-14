@@ -11,47 +11,60 @@ function DifferentPoints(props: Props) {
 
   return (
     <div className={classes.WhyFD}>
-      <div className={classes.container}  style={{marginTop: '2rem'}}>
+      <div className={classes.container} style={{ marginTop: "2rem" }}>
         <div>
           <div className={classes.content}>
             <h1 className={classes.header}>What makes Fairdrive different</h1>
             <div>
               <div className={classes.p1}>
-                <strong>Experience True Data Ownership:</strong>{" "}
-                   With Fairdrive, you are in complete control of your data, with no risk of blocked access or deletion.
+                <strong>Experience True Data Ownership:</strong> With Fairdrive,
+                you are in complete control of your data, with no risk of
+                blocked access or deletion.
               </div>
 
               <div className={classes.p1}>
-                <strong>Security and Privacy You Can Trust:</strong>{" "}
-                With encrypted data by default, Fairdrive allows you to control data with your keys.
+                <strong>Security and Privacy You Can Trust:</strong> With
+                encrypted data by default, Fairdrive allows you to control data
+                with your keys.
               </div>
 
               <div className={classes.p1}>
-                <strong>Share Your Data on Your Terms:</strong>{" "}
-                Fairdrive empowers you to decide who and when to share your data, without any third parties involved.
+                <strong>Share Your Data on Your Terms:</strong> Fairdrive
+                empowers you to decide who and when to share your data, without
+                any third parties involved.
               </div>
 
               <div className={classes.p1}>
-                <strong>Explore the World of Web3 Apps:</strong>{" "}
-                Fairdrive offers dynamic app options through the integrated app store, so you can explore and discover new possibilities.
+                <strong>Explore the World of Web3 Apps:</strong> Fairdrive
+                offers dynamic app options through the integrated app store, so
+                you can explore and discover new possibilities.
               </div>
 
               <div className={classes.p1}>
-                <strong>Referral System:</strong>{" "}
-                Invite your friends to join Fairdrive and receive free storage as a token of our gratitude for helping us grow our community.
+                <strong>Referral System:</strong> Invite your friends to join
+                Fairdrive and receive free storage as a token of our gratitude
+                for helping us grow our community.
               </div>
 
-              <div className={classes.p1} style={{marginTop: '3rem'}}>
-                Be among the pioneers in taking complete control over your data. By signing up for our waitlist, you not only gain the privilege to claim free storage but also unlock the potential for greater rewards through our referral system. Don't miss out on this opportunity to shape the future of data ownership. Sign up today and seize control of your digital destiny!
+              <div className={classes.p1} style={{ marginTop: "3rem" }}>
+                Be among the pioneers in taking complete control over your data.
+                By signing up for our waitlist, you not only gain the privilege
+                to claim free storage but also unlock the potential for greater
+                rewards through our referral system. Don't miss out on this
+                opportunity to shape the future of data ownership. Sign up today
+                and seize control of your digital destiny!
               </div>
 
-              <div className={classes.p1} style={{
-                marginTop: '2rem',
-                marginRight: '0',
-                // display: 'flex',
-                // flexDirection: 'column',
-                // alignItems: 'center'
-              }}>
+              <div
+                className={classes.p1}
+                style={{
+                  marginTop: "2rem",
+                  marginRight: "0",
+                  // display: 'flex',
+                  // flexDirection: 'column',
+                  // alignItems: 'center'
+                }}
+              >
                 {/*<div className={classes.newsletterBar}>*/}
                 {/*  <input*/}
                 {/*    className={classes.newsletterBarInput}*/}
@@ -64,16 +77,37 @@ function DifferentPoints(props: Props) {
                 {/*</div>*/}
                 <div className="klaviyo-form-UrTtyL"></div>
 
-                <p style={{
-                  color: '#888',
-                  opacity: 0.6,
-                  fontSize: '1.8rem',
-                  textAlign: 'center',
-                }}>
-                  The first 1000 signups will be among the recipients of free storage
+                <p
+                  style={{
+                    color: "#888",
+                    opacity: 0.6,
+                    fontSize: "1.8rem",
+                    textAlign: "center",
+                  }}
+                >
+                  The first 1000 signups will be among the recipients of free
+                  storage
+                </p>
+                <p
+                  style={{
+                    color: "#888",
+                    opacity: 0.6,
+                    fontSize: "1.8rem",
+                    textAlign: "center",
+                    marginTop: "2rem",
+                  }}
+                >
+                  Proceed to&nbsp;
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={classes.paragraphLink}
+                    href="https://app.fairdrive.fairdatasociety.org/"
+                  >
+                    Fairdrive App
+                  </a>{" "}
                 </p>
               </div>
-
             </div>
           </div>
         </div>

@@ -10,3 +10,4 @@ app/debug.log
 example/
 old-app/
 .DS_Store
+node_modules
