@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from 'react'
 import { useTheme } from "../../store/themeContext/themeContext";
 import useStyles from "./differentPointsStyles";
 
@@ -8,6 +8,11 @@ function DifferentPoints(props: Props) {
   const { theme } = useTheme();
 
   const classes = useStyles({ ...props, ...theme });
+
+  useEffect(() => {
+    window._klOnsite = window._klOnsite || [];
+    window._klOnsite.push(['openForm', 'TUV2ne']);
+  }, [])
 
   return (
     <div className={classes.WhyFD}>
