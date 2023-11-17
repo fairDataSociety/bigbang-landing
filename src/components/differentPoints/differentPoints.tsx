@@ -62,7 +62,7 @@ function DifferentPoints(props: Props) {
                 {/*    GET EARLY ACCESS*/}
                 {/*  </button>*/}
                 {/*</div>*/}
-                <div className="klaviyo-form-UrTtyL"></div>
+                <div className="klaviyo-form-TUV2ne"></div>
 
                 <p style={{
                   color: '#888',
