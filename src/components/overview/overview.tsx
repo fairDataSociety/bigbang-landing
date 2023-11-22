@@ -19,10 +19,12 @@ function Overview(props: Props) {
           <FairDriveLogotypeDarkSVG width={250}/>
         </p>
         <p className={classes.headingBig}>
-          Your Digital Safe Space
+          Your Data, Your Rules
         </p>
+        <h1 className={"makeStyles-header-40 makeStyles-header-55"} style={{marginTop: -15}}>Sign up for the waiting list</h1>
+
         <p className={classes.paragraph} style={{marginBottom: '0'}}>
-          Welcome to Fairdrive, the Web3 drive that puts you in charge of your data. Say goodbye to centralized clouds and hello to total control, advanced security, and decentralized storage.
+          Imagine a place like Dropbox, but where you have full control—this is Fairdrive. Built on top of Swarm’s decentralized storage, it's a secure spot for your files, without the usual risks of big company cloud storage. It’s simple: your data stays yours, private and protected. With Fairdrive, you get the benefits of storing data online but with the peace of mind that it’s safe and under your command.
         </p>
       </div>
     </div>

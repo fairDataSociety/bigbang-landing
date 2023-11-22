@@ -1,90 +1,142 @@
 import React, { useEffect } from 'react'
-import { useTheme } from "../../store/themeContext/themeContext";
-import useStyles from "./differentPointsStyles";
+import { useTheme } from '../../store/themeContext/themeContext'
+import useStyles from './differentPointsStyles'
 
-export interface Props {}
+export interface Props {
+}
 
 function DifferentPoints(props: Props) {
-  const { theme } = useTheme();
+  const {theme} = useTheme()
 
-  const classes = useStyles({ ...props, ...theme });
+  const classes = useStyles({...props, ...theme})
+
+  const [showThanks, setShowThanks] = React.useState(false)
 
   useEffect(() => {
-    window._klOnsite = window._klOnsite || [];
-    window._klOnsite.push(['openForm', 'TUV2ne']);
+    window._klOnsite = window._klOnsite || []
+    window._klOnsite.push(['openForm', 'TUV2ne'])
   }, [])
 
   return (
-    <div className={classes.WhyFD}>
-      <div className={classes.container}  style={{marginTop: '2rem'}}>
-        <div>
-          <div className={classes.content}>
-            <h1 className={classes.header}>What makes Fairdrive different</h1>
-            <div>
-              <div className={classes.p1}>
-                <strong>Experience True Data Ownership:</strong>{" "}
-                   With Fairdrive, you are in complete control of your data, with no risk of blocked access or deletion.
-              </div>
+      <div className={classes.WhyFD}>
+        <div className={classes.container} style={{marginTop: '2rem'}}>
+          <div>
+            <div className={classes.content}>
+              <h1 className={classes.header}>What makes Fairdrive different</h1>
+              <div>
+                <div className={classes.p1}>
+                  <strong>Secure Storage:</strong>{' '}
+                  Encrypted and protected, your files are safe within Swarm’s decentralized network.
+                </div>
 
-              <div className={classes.p1}>
-                <strong>Security and Privacy You Can Trust:</strong>{" "}
-                With encrypted data by default, Fairdrive allows you to control data with your keys.
-              </div>
+                <div className={classes.p1}>
+                  <strong>True Data Ownership:</strong>{' '}
+                  Claim complete ownership over your data, deciding who accesses it and when.
+                </div>
 
-              <div className={classes.p1}>
-                <strong>Share Your Data on Your Terms:</strong>{" "}
-                Fairdrive empowers you to decide who and when to share your data, without any third parties involved.
-              </div>
+                <div className={classes.p1}>
+                  <strong>User-Friendly Interface:</strong>{' '}
+                  Easily manage your files with our intuitive platform, designed for simplicity and efficiency.
+                </div>
 
-              <div className={classes.p1}>
-                <strong>Explore the World of Web3 Apps:</strong>{" "}
-                Fairdrive offers dynamic app options through the integrated app store, so you can explore and discover new possibilities.
-              </div>
+                <div className={classes.p1}>
+                  <strong>Developer Friendly:</strong>{' '}
+                  Utilize a GDPR-compliant system that seamlessly integrates with your dApps, respecting user privacy.
+                </div>
 
-              <div className={classes.p1}>
-                <strong>Referral System:</strong>{" "}
-                Invite your friends to join Fairdrive and receive free storage as a token of our gratitude for helping us grow our community.
-              </div>
+                <div className={classes.p1}>
+                  <strong>Decentralized AI Integration:</strong>{' '}
+                  Embrace AI that champions privacy, ready for a future where your data stays private.
+                </div>
 
-              <div className={classes.p1} style={{marginTop: '3rem'}}>
-                Be among the pioneers in taking complete control over your data. By signing up for our waitlist, you not only gain the privilege to claim free storage but also unlock the potential for greater rewards through our referral system. Don't miss out on this opportunity to shape the future of data ownership. Sign up today and seize control of your digital destiny!
-              </div>
+                <div className={classes.p1}>
+                  <strong>Data Interoperability:</strong>{' '}
+                  Effortlessly connect and transfer data across a growing ecosystem of dApps, thanks to built-in interoperability features.
+                </div>
 
-              <div className={classes.p1} style={{
-                marginTop: '2rem',
-                marginRight: '0',
-                // display: 'flex',
-                // flexDirection: 'column',
-                // alignItems: 'center'
-              }}>
-                {/*<div className={classes.newsletterBar}>*/}
-                {/*  <input*/}
-                {/*    className={classes.newsletterBarInput}*/}
-                {/*    type="text"*/}
-                {/*    placeholder="Enter your email"*/}
-                {/*  />*/}
-                {/*  <button type="button" className={classes.newsletterBarSubmit}>*/}
-                {/*    GET EARLY ACCESS*/}
-                {/*  </button>*/}
-                {/*</div>*/}
-                <div className="klaviyo-form-TUV2ne"></div>
+                <div className={classes.p1}>
+                  <strong>Expanding dApp Store:</strong>{' '}
+                  Explore and use a diverse range of dApps, all while maintaining sovereignty over your data.
+                </div>
 
-                <p style={{
-                  color: '#888',
-                  opacity: 0.6,
-                  fontSize: '1.8rem',
-                  textAlign: 'center',
+                <div className={classes.header} style={{marginTop: '3rem'}}>
+                  Reserve Your Spot as an Early Adopter
+                </div>
+
+                <div className={classes.headerSmall} style={{marginBottom: '4rem'}}>
+                  Join the waiting list
+                </div>
+
+                <div className={classes.p1} style={{
+                  marginTop: '2rem',
+                  marginRight: '0',
+                  // display: 'flex',
+                  // flexDirection: 'column',
+                  // alignItems: 'center'
                 }}>
-                  The first 1000 signups will be among the recipients of free storage
-                </p>
-              </div>
+                  <p style={{
+                    // color: '#888',
+                    // opacity: 0.6,
+                    // fontSize: '1.8rem',
+                    // textAlign: 'center',
+                  }}>
+                    By entering the waiting list for Fairdrive, you're not just early—you're exclusive. As an early adopter, you'll secure privileged access to a platform that’s setting the new standard for data autonomy. Any future benefits that come with early adoption are just the icing on the cake.
+                  </p>
+                  {/*<div className={classes.newsletterBar}>*/}
+                  {/*  <input*/}
+                  {/*    className={classes.newsletterBarInput}*/}
+                  {/*    type="text"*/}
+                  {/*    placeholder="Enter your email"*/}
+                  {/*  />*/}
+                  {/*  <button type="button" className={classes.newsletterBarSubmit}>*/}
+                  {/*    GET EARLY ACCESS*/}
+                  {/*  </button>*/}
+                  {/*</div>*/}
 
+                  {showThanks && <div id="sign-result">
+                    THANKS FOR SIGNING UP!
+                  </div>}
+
+                  {!showThanks && <div id="mauticform_wrapper_fairdrivelaunch" className="form-container">
+                    <form autoComplete="false" role="form" method="post"
+                          action="https://mt.fairdrive.io/form/submit?formId=1" id="mauticform_fairdrivelaunch"
+                          data-mautic-form="fairdrivelaunch" encType="multipart/form-data" onSubmit={()=>{
+                      setShowThanks(true)
+                    }}>
+                      <div className="mauticform-error" id="mauticform_fairdrivelaunch_error"></div>
+                      <div className="mauticform-message" id="mauticform_fairdrivelaunch_message"></div>
+                      <div className="mauticform-innerform">
+
+                        <div data-mautic-form-page="1">
+                          <div id="mauticform_fairdrivelaunch_email" className="mauticform-row">
+                            <input id="mauticform_input_fairdrivelaunch_email" name="mauticform[email]"
+                                   placeholder="Email" className="email-input" type="email"/>
+                            <span className="mauticform-errormsg" style={{display: 'none'}}></span>
+                          </div>
+
+                          <div id="mauticform_fairdrivelaunch_subscribe" className="mauticform-row">
+                            <button type="submit" name="mauticform[subscribe]"
+                                    id="mauticform_input_fairdrivelaunch_subscribe" className="submit-button">Join Waiting List
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <input type="hidden" name="mauticform[formId]" id="mauticform_fairdrivelaunch_id" value="1"/>
+                      <input type="hidden" name="mauticform[return]" id="mauticform_fairdrivelaunch_return" value=""/>
+                      <input type="hidden" name="mauticform[formName]" id="mauticform_fairdrivelaunch_name"
+                             value="fairdrivelaunch"/>
+                    </form>
+                  </div>}
+
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  );
+  )
 }
 
-export default React.memo(DifferentPoints);
+export default React.memo(DifferentPoints)

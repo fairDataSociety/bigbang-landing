@@ -1,18 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="shortcut icon" href="Favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" type="text/css" href="style.css" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap"
-			rel="stylesheet"
-		/>
-		<title>Join Fairdrive</title>
-		<script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=UXrh34"></script>
-	</head>
-	<body>
-		<div id="root"></div>
-	</body>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" href="Favicon.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <title>Join Fairdrive</title>
+    <script type="text/javascript">
+        if (typeof MauticSDKLoaded == 'undefined') {
+            var MauticSDKLoaded = true;
+            var head = document.getElementsByTagName('head')[0];
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://mt.fairdrive.io/media/js/mautic-form.js?v02e451a0';
+            script.onload = function () {
+                MauticSDK.onLoad();
+            };
+            head.appendChild(script);
+            var MauticDomain = 'https://mt.fairdrive.io';
+            var MauticLang = {
+                'submittingMessage': "Please wait..."
+            }
+        } else if (typeof MauticSDK != 'undefined') {
+            MauticSDK.onLoad();
+        }
+    </script>
+
+    <style type="text/css" scoped>
+        .mauticform-field-hidden {
+            display: none
+        }
+    </style>
+
+    <style>
+        .form-container {
+            margin-top: 3rem;
+            width: 100%;
+        }
+
+        .mauticform-row {
+            margin-bottom: 10px;
+        }
+
+        .email-input, .submit-button {
+            width: calc(100% - 20px); /* Adjust for padding */
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .email-input {
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            outline: none;
+        }
+
+        .submit-button {
+            border: none;
+            border-radius: 25px;
+            background-color: #6e57e0; /* Adjust the color to match the image */
+            color: white;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .submit-button:hover {
+            background-color: #5d4bcf; /* A slightly darker shade for hover state */
+        }
+
+        #sign-result {
+            margin-top: 3rem;
+            text-align: center; /* Centers text horizontally */
+            width: 100%; /* Ensures the div takes full width of its parent */
+            font-size: 24px; /* Adjust as needed for your design */
+            font-weight: bold; /* Makes the font bold */
+            /* Add any additional styling such as font-family, color, etc. */
+        }
+    </style>
+</head>
+<body>
+<div id="root"></div>
+</body>
 </html>

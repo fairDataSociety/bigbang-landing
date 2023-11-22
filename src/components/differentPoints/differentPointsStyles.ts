@@ -86,6 +86,17 @@ const useStyles = makeStyles(() =>
         textAlign: "left",
       },
     },
+    headerSmall: {
+      font: "600 5rem var(--font1);",
+      textAlign: "center",
+      marginBottom: "4rem",
+      "@media (min-width: 960px)": {
+        // font: (style: Props & Theme) => style.typography.h5,
+        font: "600 2.5rem var(--font1);",
+        margin: "2rem",
+        textAlign: "left",
+      },
+    },
     p1: {
       color: (style: Props & Theme) => style.textDark1,
 
