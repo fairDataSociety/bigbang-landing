@@ -24,7 +24,7 @@ function DifferentPoints(props: Props) {
           <div>
             <div className={classes.content}>
               {/*<h1 className={classes.header}>What makes Fairdrive different</h1>*/}
-              <Typography variant="h2" align="center" gutterBottom={true}>
+              <Typography variant="h2" gutterBottom={true} style={{marginLeft: '2rem'}}>
                 <b>
                   What makes Fairdrive different
                 </b>
@@ -69,7 +69,7 @@ function DifferentPoints(props: Props) {
                 {/*  Reserve Your Spot as an Early Adopter*/}
                 {/*</div>*/}
 
-                <Typography variant="h2" align="center" gutterBottom={true}>
+                <Typography variant="h2" gutterBottom={true} style={{marginLeft: '2rem'}}>
                   <b>
                     Reserve Your Spot as an Early Adopter
                   </b>
@@ -79,7 +79,7 @@ function DifferentPoints(props: Props) {
                 {/*  Join the waiting list*/}
                 {/*</div>*/}
 
-                <Typography variant="h2" align="center" gutterBottom={true}>
+                <Typography variant="h3" gutterBottom={true} style={{marginLeft: '2rem'}}>
                   <b>
                     Join the waiting list
                   </b>
