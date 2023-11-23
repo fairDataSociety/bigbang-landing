@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useTheme } from '../../store/themeContext/themeContext'
 import useStyles from './differentPointsStyles'
+import { Typography } from '@mui/material'
 
 export interface Props {
 }
@@ -22,7 +23,12 @@ function DifferentPoints(props: Props) {
         <div className={classes.container} style={{marginTop: '2rem'}}>
           <div>
             <div className={classes.content}>
-              <h1 className={classes.header}>What makes Fairdrive different</h1>
+              {/*<h1 className={classes.header}>What makes Fairdrive different</h1>*/}
+              <Typography variant="h2" gutterBottom={true} className="headers">
+                <b>
+                  What makes Fairdrive different
+                </b>
+              </Typography>
               <div>
                 <div className={classes.p1}>
                   <strong>Secure Storage:</strong>{' '}
@@ -58,14 +64,21 @@ function DifferentPoints(props: Props) {
                   <strong>Expanding dApp Store:</strong>{' '}
                   Explore and use a diverse range of dApps, all while maintaining sovereignty over your data.
                 </div>
+                <Typography variant="h2" gutterBottom={true} className="headers">
+                  <b>
+                    Reserve Your Spot as an Early Adopter
+                  </b>
+                </Typography>
 
-                <div className={classes.header} style={{marginTop: '3rem'}}>
-                  Reserve Your Spot as an Early Adopter
-                </div>
+                {/*<div className={classes.headerSmall} style={{marginBottom: '4rem'}}>*/}
+                {/*  Join the waiting list*/}
+                {/*</div>*/}
 
-                <div className={classes.headerSmall} style={{marginBottom: '4rem'}}>
-                  Join the waiting list
-                </div>
+                <Typography variant="h3" gutterBottom={true} className="headers">
+                  <b>
+                    Join the waiting list
+                  </b>
+                </Typography>
 
                 <div className={classes.p1} style={{
                   marginTop: '2rem',

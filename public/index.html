@@ -80,6 +80,28 @@
             /* Add any additional styling such as font-family, color, etc. */
         }
     </style>
+
+    <style>
+        /* Default styles for mobile */
+        .headers {
+            margin-left: 0 !important;
+        }
+
+        /* Tablet (devices with min-width of 768px) */
+        @media (min-width: 768px) {
+            .headers {
+                margin-left: 1rem !important;
+            }
+        }
+
+        /* PC (devices with min-width of 1024px) */
+        @media (min-width: 1024px) {
+            .headers {
+                margin-left: 2rem !important;
+            }
+        }
+
+    </style>
 </head>
 <body>
 <div id="root"></div>
