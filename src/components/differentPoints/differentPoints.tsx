@@ -24,7 +24,7 @@ function DifferentPoints(props: Props) {
           <div>
             <div className={classes.content}>
               {/*<h1 className={classes.header}>What makes Fairdrive different</h1>*/}
-              <Typography variant="h2" gutterBottom={true} style={{marginLeft: '2rem'}}>
+              <Typography variant="h2" gutterBottom={true} className="headers">
                 <b>
                   What makes Fairdrive different
                 </b>
@@ -64,12 +64,7 @@ function DifferentPoints(props: Props) {
                   <strong>Expanding dApp Store:</strong>{' '}
                   Explore and use a diverse range of dApps, all while maintaining sovereignty over your data.
                 </div>
-
-                {/*<div className={classes.header} style={{marginTop: '3rem'}}>*/}
-                {/*  Reserve Your Spot as an Early Adopter*/}
-                {/*</div>*/}
-
-                <Typography variant="h2" gutterBottom={true} style={{marginLeft: '2rem'}}>
+                <Typography variant="h2" gutterBottom={true} className="headers">
                   <b>
                     Reserve Your Spot as an Early Adopter
                   </b>
@@ -79,7 +74,7 @@ function DifferentPoints(props: Props) {
                 {/*  Join the waiting list*/}
                 {/*</div>*/}
 
-                <Typography variant="h3" gutterBottom={true} style={{marginLeft: '2rem'}}>
+                <Typography variant="h3" gutterBottom={true} className="headers">
                   <b>
                     Join the waiting list
                   </b>
