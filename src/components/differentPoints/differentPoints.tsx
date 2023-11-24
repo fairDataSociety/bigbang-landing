@@ -23,8 +23,7 @@ function DifferentPoints(props: Props) {
         <div className={classes.container} style={{marginTop: '2rem'}}>
           <div>
             <div className={classes.content}>
-              {/*<h1 className={classes.header}>What makes Fairdrive different</h1>*/}
-              <Typography variant="h2" gutterBottom={true} className="headers">
+              <Typography variant="h2" gutterBottom={true} className="headers margin-top-first">
                 <b>
                   What makes Fairdrive different
                 </b>
@@ -57,14 +56,16 @@ function DifferentPoints(props: Props) {
 
                 <div className={classes.p1}>
                   <strong>Data Interoperability:</strong>{' '}
-                  Effortlessly connect and transfer data across a growing ecosystem of dApps, thanks to built-in interoperability features.
+                  Effortlessly connect and transfer data across a growing ecosystem of dApps, thanks to built-in
+                  interoperability features.
                 </div>
 
                 <div className={classes.p1}>
                   <strong>Expanding dApp Store:</strong>{' '}
                   Explore and use a diverse range of dApps, all while maintaining sovereignty over your data.
                 </div>
-                <Typography variant="h2" gutterBottom={true} className="headers">
+
+                <Typography variant="h2" gutterBottom={true} className="headers margin-top">
                   <b>
                     Reserve Your Spot as an Early Adopter
                   </b>
@@ -92,8 +93,12 @@ function DifferentPoints(props: Props) {
                     // opacity: 0.6,
                     // fontSize: '1.8rem',
                     // textAlign: 'center',
+                    backgroundColor: '#f5f5f5',
+                    padding: '2rem',
                   }}>
-                    By entering the waiting list for Fairdrive, you're not just early—you're exclusive. As an early adopter, you'll secure privileged access to a platform that’s setting the new standard for data autonomy. Any future benefits that come with early adoption are just the icing on the cake.
+                    By entering the waiting list for Fairdrive, you're not just early—you're exclusive. As an early
+                    adopter, you'll secure privileged access to a platform that’s setting the new standard for data
+                    autonomy. Any future benefits that come with early adoption are just the icing on the cake.
                   </p>
                   {/*<div className={classes.newsletterBar}>*/}
                   {/*  <input*/}
@@ -106,40 +111,47 @@ function DifferentPoints(props: Props) {
                   {/*  </button>*/}
                   {/*</div>*/}
 
-                  {showThanks && <div id="sign-result">
-                    THANKS FOR SIGNING UP!
+                  {showThanks && <div>
+                      <div id="sign-result">
+                          THANKS FOR SIGNING UP!
+                      </div>
+                      <p className="text-center">
+                          Please check your email to confirm it's really you.
+                      </p>
                   </div>}
 
                   {!showThanks && <div id="mauticform_wrapper_fairdrivelaunch" className="form-container">
-                    <form autoComplete="false" role="form" method="post"
-                          action="https://mt.fairdrive.io/form/submit?formId=1" id="mauticform_fairdrivelaunch"
-                          data-mautic-form="fairdrivelaunch" encType="multipart/form-data" onSubmit={()=>{
-                      setShowThanks(true)
-                    }}>
-                      <div className="mauticform-error" id="mauticform_fairdrivelaunch_error"></div>
-                      <div className="mauticform-message" id="mauticform_fairdrivelaunch_message"></div>
-                      <div className="mauticform-innerform">
+                      <form autoComplete="false" role="form" method="post"
+                            action="https://mt.fairdrive.io/form/submit?formId=1" id="mauticform_fairdrivelaunch"
+                            data-mautic-form="fairdrivelaunch" encType="multipart/form-data" onSubmit={() => {
+                        setShowThanks(true)
+                      }}>
+                          <div className="mauticform-error" id="mauticform_fairdrivelaunch_error"></div>
+                          <div className="mauticform-message" id="mauticform_fairdrivelaunch_message"></div>
+                          <div className="mauticform-innerform">
 
-                        <div data-mautic-form-page="1">
-                          <div id="mauticform_fairdrivelaunch_email" className="mauticform-row">
-                            <input id="mauticform_input_fairdrivelaunch_email" name="mauticform[email]"
-                                   placeholder="Email" className="email-input" type="email"/>
-                            <span className="mauticform-errormsg" style={{display: 'none'}}></span>
+                              <div data-mautic-form-page="1">
+                                  <div id="mauticform_fairdrivelaunch_email" className="mauticform-row">
+                                      <input id="mauticform_input_fairdrivelaunch_email" name="mauticform[email]"
+                                             placeholder="Email" className="email-input" type="email"/>
+                                      <span className="mauticform-errormsg" style={{display: 'none'}}></span>
+                                  </div>
+
+                                  <div id="mauticform_fairdrivelaunch_subscribe" className="mauticform-row">
+                                      <button type="submit" name="mauticform[subscribe]"
+                                              id="mauticform_input_fairdrivelaunch_subscribe"
+                                              className="submit-button">Join Waiting List
+                                      </button>
+                                  </div>
+                              </div>
                           </div>
 
-                          <div id="mauticform_fairdrivelaunch_subscribe" className="mauticform-row">
-                            <button type="submit" name="mauticform[subscribe]"
-                                    id="mauticform_input_fairdrivelaunch_subscribe" className="submit-button">Join Waiting List
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-
-                      <input type="hidden" name="mauticform[formId]" id="mauticform_fairdrivelaunch_id" value="1"/>
-                      <input type="hidden" name="mauticform[return]" id="mauticform_fairdrivelaunch_return" value=""/>
-                      <input type="hidden" name="mauticform[formName]" id="mauticform_fairdrivelaunch_name"
-                             value="fairdrivelaunch"/>
-                    </form>
+                          <input type="hidden" name="mauticform[formId]" id="mauticform_fairdrivelaunch_id" value="1"/>
+                          <input type="hidden" name="mauticform[return]" id="mauticform_fairdrivelaunch_return"
+                                 value=""/>
+                          <input type="hidden" name="mauticform[formName]" id="mauticform_fairdrivelaunch_name"
+                                 value="fairdrivelaunch"/>
+                      </form>
                   </div>}
 
                 </div>
