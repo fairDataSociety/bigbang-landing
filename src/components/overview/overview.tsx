@@ -25,14 +25,14 @@ function Overview(props: Props) {
 
         <Typography variant="h1" align="center" gutterBottom={true} className={classes.headingBig}>
           <b>
-            Your Data, Your Rules
+            Your Digital Safe Space
           </b>
         </Typography>
 
         {/*<h1 className={"makeStyles-header-40 makeStyles-header-55"} style={{marginTop: -15}}>Sign up for the waiting list</h1>*/}
         <Typography variant="h2" align="center" gutterBottom={true}>
           <b>
-            Sign up for the waiting list
+            Get Early Access Now
           </b>
         </Typography>
 
